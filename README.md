@@ -35,7 +35,7 @@ export default async function createPlugin({
 And finally, wire this into the overall backend router. Edit `packages/backend/src/index.ts`
 
 ```ts
-import harbor from './plugins/quay';
+import quay from './plugins/quay';
 // ...
 async function main() {
   // ...
